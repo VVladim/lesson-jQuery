@@ -1,8 +1,47 @@
-body {
-   padding: 50px;
+
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/roboto_bold/Roboto-Bold-webfont.eot');
+    src: url('../fonts/roboto_bold/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto_bold/Roboto-Bold-webfont.woff') format('woff'),
+         url('../fonts/roboto_bold/Roboto-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/roboto_bold/Roboto-Bold-webfont.svg#robotobold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+
 }
 
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/roboto_light/Roboto-Light-webfont.eot');
+    src: url('../fonts/roboto_light/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto_light/Roboto-Light-webfont.woff') format('woff'),
+         url('../fonts/roboto_light/Roboto-Light-webfont.ttf') format('truetype'),
+         url('../fonts/roboto_light/Roboto-Light-webfont.svg#robotolight') format('svg');
+    font-weight: 400;
+    font-style: normal;
 
+}
+
+body {
+  font-family: 'Roboto', 'Ariel';
+   padding: 0;
+   margin: 0;
+}
+
+.welcome {
+   background: #2ecc71;
+}
+#bs-example-navbar-collapse-1 {
+  background: #2ecc71;
+}
+.navbar {
+    background: #2ecc71;
+    border: 0;
+    border: none;
+    padding-bottom: 0;
+}
 .wrap-popap {
   display: none;
   position: fixed;
